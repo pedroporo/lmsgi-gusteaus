@@ -4,9 +4,43 @@
 }
 div.encabezado{
     background-image: url("../imgs/guesteaus.png");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 900px;
+    background-size: cover;
     font: 36px 'Georgia', serif;
     color:#5a3e36;
+    text-align: center;
+}
+div.menu ul li a{
+    color:#ffffff;
+    font: 18px 'Helvetica', sans-serif;
+    text-decoration: none;
+    margin: 20px;
+}
+.menu{
+    background-color: #a77e58;
+    text-align: center;
+}
+div.menu ul li a:hover{
+    color: #8b6f47;
+}
+div.menu li{
+    display: inline;
+    list-style: none;
+}
+div.contenido{
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font: 18px 'Georgia', serif;
+}
+div.sidebar{
+    background-color: #ecdcc6;
+    color: #5a3e36;
+    font: 18px 'Georgia', serif;
+}
+div.pie{
+    background-color: #a77e58;
+    color:#ffffff;
+    font: 16px 'Helvetica', sans-serif;
     text-align: center;
 }
