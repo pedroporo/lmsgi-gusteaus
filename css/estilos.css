@@ -3,13 +3,14 @@
     font: 16px 'Times new Roman', sans-serif;
 }
 div.encabezado{
-    background-image: url("../imgs/guesteaus.png");
-    background-position: center;
+    background-image:url("../imgs/favicon.png"),url("../imgs/guesteaus.png");
+    background-position: left,center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain,cover;
     font: 36px 'Georgia', serif;
     color:#5a3e36;
     text-align: center;
+    padding-top: 10px;
 }
 div.menu ul li a{
     color:#ffffff;
@@ -39,8 +40,17 @@ div.sidebar{
     font: 18px 'Georgia', serif;
 }
 div.pie{
-    background-color: #a77e58;
-    color:#ffffff;
+    background-color: #5a3e36;
+    color:#ecdcc6;
     font: 16px 'Helvetica', sans-serif;
     text-align: center;
+}
+div.pie li{
+    display: inline;
+    list-style: none;
+}
+div.pie ul li a{
+    color:#ecdcc6;
+    text-decoration: none;
+    margin: 20px;
 }
