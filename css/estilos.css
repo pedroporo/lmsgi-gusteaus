@@ -11,6 +11,7 @@ div.encabezado{
     color:#5a3e36;
     text-align: center;
     padding-top: 10px;
+    padding-left: 40px;
 }
 div.menu ul li a{
     color:#ffffff;
@@ -23,7 +24,8 @@ div.menu ul li a{
     text-align: center;
 }
 div.menu ul li a:hover{
-    color: #8b6f47;
+    color: #5a3e36;
+    text-decoration: underline;
 }
 div.menu li{
     display: inline;
@@ -53,4 +55,8 @@ div.pie ul li a{
     color:#ecdcc6;
     text-decoration: none;
     margin: 20px;
+}
+div.pie ul li a:hover{
+    color: #a77e58;
+    text-decoration: underline;
 }
