@@ -1,0 +1,36 @@
+#contenedor{
+    background: #fff8f0;
+    font: 16px 'Times new Roman', sans-serif;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+div.encabezado{
+    background-image:url("../imgs/favicon.png"),url("../imgs/guesteaus.png");
+    background-position: left,center;
+    background-repeat: no-repeat;
+    background-size: contain,cover;
+    font: 36px 'Georgia', serif;
+    color:#5a3e36;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+div.pie{
+    background-color: #5a3e36;
+    color:#ecdcc6;
+    font: 16px 'Helvetica', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px #5a3e36;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+#contenedor>div.pie{
+    
+    clear:both;
+}
+.email:invalid{
+    background-color: red;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Restaurante Gusteau's</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div id="contenedor">
+        <div class="encabezado">Restaurante Gusteau's</div>
+        <div class="formulario">
+            <form action="/submit-form" method="post">
+                <p>Nombre<br><input type="text" name="nombre" id="datos" maxlength="30" class="nombre"></p>
+                <p>Email<br><input type="email" name="email" id="datos" class="email"></p>
+                <p>Teléfono<br><input type="tel" name="telefono" id="datos" class="telefono"></p>
+                <p>Número de personas<br><input type="text" pattern="\d*" name="numpersonas" id="datos" class="numpersonas" maxlength="3" size="3px"></p>
+                <p>Fecha y Hora<br><input type="datetime-local" name="fechayhora" id="datos" class="fechayhora"></p>
+                <p>Comentarios o Peticiones especiales<br><textarea name="coment" id="datos" class="coment" cols="30" rows="10"></textarea></p>
+                <p><input type="button" value="Reservar Mesa"></p>
+            </form>
+        </div>
+        <div class="pie">
+            © 2024 Restaurante Gusteau's - París, Francia
+        </div>
+    </div>
+</body>
+</html>
