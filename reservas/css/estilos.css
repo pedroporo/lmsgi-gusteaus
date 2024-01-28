@@ -34,3 +34,18 @@ div.pie{
 .email:invalid{
     background-color: red;
 }
+input[type='text'], input[type='email'], input[type='tel']{
+    border: 1px solid #a77e58;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff8f0;
+}
+input[type='submit']{
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+input[type='submit']:hover{
+    background-color: #a77e58;
+}
