@@ -1,7 +1,110 @@
-p{
-    color:blue;
+#contenedor{
+    background: #fff8f0;
+    font: 16px 'Times new Roman', sans-serif;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+div.encabezado{
+    background-image:url("../imgs/favicon.png"),url("../imgs/guesteaus.png");
+    background-position: left,center;
+    background-repeat: no-repeat;
+    background-size: contain,cover;
+    font: 36px 'Georgia', serif;
+    color:#5a3e36;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+div.menu ul li a{
+    color:#ffffff;
+    font: 18px 'Helvetica', sans-serif;
+    text-decoration: none;
+    margin: 20px;
+}
+.menu{
+    background-color: #a77e58;
     text-align: center;
 }
-div{
-    background-color: green;
+div.menu ul li a:hover{
+    color: #5a3e36;
+    text-decoration: underline;
 }
+div.menu li{
+    display: inline;
+    list-style: none;
+}
+div.contenido{
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font: 18px 'Georgia', serif;
+    float: left;
+    width: 70%;
+    padding: 20px auto;
+    margin: 10px auto;
+    text-align: center;
+    list-style-position:inside;
+}
+
+div.sidebar{
+    background-color: #ecdcc6;
+    color: #5a3e36;
+    font: 18px 'Georgia', serif;
+    float: right;
+    width: 30%;
+    padding: 20px auto;
+    box-shadow: 12px 12px #aca090;
+    text-align: center;
+    border-radius: 20px;
+}
+div.sidebar>ul{
+    text-align: left;
+}
+div.pie{
+    background-color: #5a3e36;
+    color:#ecdcc6;
+    font: 16px 'Helvetica', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px #5a3e36;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+div.pie li{
+    display: inline;
+    list-style: none;
+}
+div.pie ul li a{
+    color:#ecdcc6;
+    text-decoration: none;
+    margin: 20px;
+}
+div.pie ul li a:hover{
+    color: #a77e58;
+    text-decoration: underline;
+}
+
+#contenedor>div.pie{
+    
+    clear:both;
+}
+/*Formulario*/
+.email:invalid{
+    background-color: red;
+}
+input[type='text'], input[type='email'], input[type='tel']{
+    border: 1px solid #a77e58;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff8f0;
+}
+input[type='submit']{
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+input[type='submit']:hover{
+    background-color: #a77e58;
+}
+/*Menu De comida, No me da tiempo porque se me olvido*/
