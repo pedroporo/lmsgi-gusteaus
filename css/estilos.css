@@ -108,3 +108,33 @@ input[type='submit']:hover{
     background-color: #a77e58;
 }
 /*Menu De comida, No me da tiempo porque se me olvido*/
+li:hover::after {
+    content: ' Alerguenos: ' attr(data-alergenos) '';
+    font-size: 0.7em;
+  }
+.CuerpoMenu{
+    background: #fff8f0;
+    font: 16px 'Times new Roman', sans-serif;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    list-style: none;
+}
+.CuerpoMenu nav a{
+    text-align: center;
+    color:#a88012;
+    font: 18px 'Helvetica', sans-serif;
+    text-decoration: none;
+    margin: 20px;
+}
+.menu-estrella ul li{
+
+    list-style: none;
+}
+.menu-estrella{
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font: 18px 'Georgia', serif;
+    text-align: center;
+    list-style-position:inside;
+}
