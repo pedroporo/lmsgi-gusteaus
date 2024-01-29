@@ -108,7 +108,7 @@ input[type='submit']:hover{
     background-color: #a77e58;
 }
 /*Menu De comida, No me da tiempo porque se me olvido*/
-li:hover::after {
+.menu-estrella li:hover::after {
     content: ' Alerguenos: ' attr(data-alergenos) '';
     font-size: 0.7em;
   }
